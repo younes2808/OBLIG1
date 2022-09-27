@@ -1,0 +1,205 @@
+body {
+    text-align: center;
+    background: rgb(38, 246, 215);
+    background-image: url();
+    height: 100%;
+    width: 100%;
+}
+
+
+.dessert.mat{
+  width: 70rem;
+  text-align: center
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.sidebar{   
+  width: 200px;
+  height: 140vh;
+  left: 0px;
+
+  background: #1e1e1e;
+  
+}
+.sidebar header{
+  font-size: 28px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #1b1b1b;
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.sidebar a{
+  display: block;
+  height: 65px;
+  width: 60%;
+  color: white;
+  line-height: 65px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-left: 5px solid transparent;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .5s ease;
+}
+a.active,a:hover{
+  border-left: 5px solid #8bf8f3;
+  color: #9bf8ef;
+}
+.sidebar a i{
+  font-size: 23px;
+  margin-right: 16px;
+}
+.sidebar a span{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.rett {
+    width: 30%;
+    height: 110%;
+    margin: 16px;
+    text-align: center;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: white;
+    box-shadow: 5px 5px 10px 3px grey;
+    border-radius: 2em 2em 2em 2em;
+}    
+.rett-tittel{
+    font-family: Verdana;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+    
+}
+.rett p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    padding: 10px;
+    padding-right: 15px;
+}
+.bilder {
+    width: 100%;
+    height: 170px;
+    border-radius: 2em 2em 0em 0em;
+   box-shadow:0px 1px 1px #392f2f;
+    margin-bottom: 10px;
+}
+.allergener {
+  margin: 0 auto;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  margin-right: 80%;
+  padding-top: 10%;
+  display: grid;
+  grid-template-areas: 
+    "a b c c";
+  gap: 0.2rem;
+}
+.allergen img{
+  width: 1.5em;
+  height: 1.5em;
+}
+.allergen {
+  background: rgba(139, 230, 238, 0.9);
+  width: 4em;
+  height: 4em;
+  padding: .75rem .75rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.pris {
+  width: auto;
+	height: 38px;
+	
+	background-color: #ca1111;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+  margin: 10%;
+	
+	border-left: 1px solid #979797;
+
+	
+	position: sticky;
+  right: 0;
+  bottom: 0;
+
+	color: white;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	line-height: 38px;
+	padding: 0 10px 0 10px;
+}
+.container {
+	width: 100%;
+
+}
+#tittelbilde {
+    width: 0px;
+    height: 0px;
+}
+
+#retter {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+
+#apning {
+    position: fixed;
+
+    border:2px inset rgb(71, 71, 84);
+    top: 15%;
+    left: 45%;
+    height:150px;
+    width:250px;
+    background-color: white;
+}
+#kontakt {
+    position: fixed;
+    border:2px outset grey;
+    
+    left: 43%;
+    top:45%;
+    height:200px;
+    width:300px;
+    background-color: white;
+}
+
+.mat {
+  display: none
+}
+.mat:first-of-type {display:block}
+
+.mat {
+    display: none
+  }
+  .mat:first-of-type {display:block}
+  
+  a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 0;
+  }
+
+  #logo {
+    position: relative;
+    background-color: transparent;
+    left: -15%;
+    height: 90px;
+    width: 250px;
+  
+  }
