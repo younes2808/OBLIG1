@@ -1,6 +1,6 @@
 # OBLIG1-Gr.65-
 
-Gruppenummer 86: 
+Gruppenummer 65: 
 S374150 Rafey Ul-Islam Afzal 
 S374220 Younes Benhaida 
 S374156 Shoeb Mohammadi 
